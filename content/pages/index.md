@@ -20,7 +20,7 @@ sections:
         style: primary
         elementId: ''
         type: Button
-      - label: Get Involved
+      - label: Follow
         altText: Join our cause
         url: '#contact'
         showIcon: true
