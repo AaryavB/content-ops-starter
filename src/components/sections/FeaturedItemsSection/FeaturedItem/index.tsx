@@ -7,19 +7,20 @@ import Action from '../../../atoms/Action';
 import ImageBlock from '../../../blocks/ImageBlock';
 
 export default function FeaturedItem(props) {
-    const { elementId, title, tagline, subtitle, text, image, actions = [], colors = 'bg-light-fg-dark', styles = {}, hasSectionTitle } = props;
+    const { elementId, title, tagline, subtitle, text, image, backgroundImage, actions = [], colors = 'bg-light-fg-dark', styles = {}, hasSectionTitle } = props;
     const fieldPath = props['data-sb-field-path'];
     const TitleTag = hasSectionTitle ? 'h3' : 'h2';
     const flexDirection = styles?.self?.flexDirection ?? 'col';
     const hasTextContent = !!(tagline || title || subtitle || text || actions.length > 0);
     const hasImage = !!image?.url;
+    const hasBackgroundImage = !!backgroundImage?.url;
 
     return (
         <div
             id={elementId}
             className={classNames(
                 'sb-card',
-                colors,
+                hasBackgroundImage ? 'sb-card-with-bg' : colors,
                 styles?.self?.margin ? mapStyles({ margin: styles?.self?.margin }) : undefined,
                 styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : undefined,
                 styles?.self?.borderWidth && styles?.self?.borderWidth !== 0 && styles?.self?.borderStyle !== 'none'
@@ -31,11 +32,14 @@ export default function FeaturedItem(props) {
                     : undefined,
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined,
                 styles?.self?.textAlign ? mapStyles({ textAlign: styles?.self?.textAlign }) : undefined,
-                'overflow-hidden'
+                'overflow-hidden',
+                hasBackgroundImage ? 'relative' : undefined
             )}
+            style={hasBackgroundImage ? { backgroundImage: `url(${backgroundImage.url})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}
             data-sb-field-path={fieldPath}
         >
-            <div className={classNames('w-full', 'flex', mapFlexDirectionStyles(flexDirection, hasTextContent, hasImage), 'gap-6')}>
+            {hasBackgroundImage && <div className="sb-card-bg-overlay absolute inset-0" />}
+            <div className={classNames('w-full', 'flex', mapFlexDirectionStyles(flexDirection, hasTextContent, hasImage), 'gap-6', hasBackgroundImage ? 'relative z-10' : undefined)}>
                 {hasImage && (
                     <ImageBlock
                         {...image}

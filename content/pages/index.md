@@ -4,44 +4,51 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
-      color: text-dark
+      text: Team CyberShakti
+      color: text-light
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: A Student-Led Initiative Against Cyberbullying
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      We are a passionate group of students dedicated to combatting cyberbullying among adolescents. Through awareness campaigns, research, and community engagement, we strive to create safer digital spaces for young people everywhere.
     actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
+      - label: Learn More
+        altText: Learn more about our mission
+        url: '#awareness'
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
+        type: Button
+      - label: Get Involved
+        altText: Join our cause
+        url: '#contact'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Link
+      - label: ''
+        altText: Follow us on Instagram
+        url: 'https://www.instagram.com/teamcybershakti/'
+        showIcon: true
+        icon: instagram
+        iconPosition: left
+        style: secondary
+        elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      url: /images/cybershakti-logo.jpeg
+      altText: Team CyberShakti Logo - Standing against cyberbullying
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Stand Against Cyberbullying
       color: text-primary
       type: Badge
     elementId: ''
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
@@ -53,24 +60,22 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
-      color: text-dark
+      text: Our Impact
+      color: text-light
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Making a difference in the fight against cyberbullying
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: '1 in 3'
+        subtitle: Students Affected
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Studies show that approximately 1 in 3 adolescents have experienced cyberbullying. We are working to change this statistic.
         actions: []
         elementId: null
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -84,25 +89,23 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Impact icon
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: '24/7'
+        subtitle: Online Presence
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Cyberbullying can happen at any time. Our resources and support are designed to help young people navigate online challenges around the clock.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: Support icon
           elementId: ''
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -115,19 +118,17 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: '100%'
+        subtitle: Student-Driven
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Our initiative is entirely led by students who understand the challenges faced by their peers in the digital age.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Community icon
           elementId: ''
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -138,18 +139,9 @@ sections:
             borderRadius: x-large
             flexDirection: row
         type: FeaturedItem
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
+    actions: []
     badge:
-      label: This is a badge
+      label: Our Mission
       color: text-primary
       styles:
         self:
@@ -157,7 +149,7 @@ sections:
       type: Badge
     elementId: ''
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -168,58 +160,8 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
-    images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
-        type: ImageBlock
-      - url: /images/wellster-logo.svg
-        altText: Wellster logo
-        type: ImageBlock
-      - url: /images/vise-logo.svg
-        altText: Vise logo
-        type: ImageBlock
-      - url: /images/telus-logo.svg
-        altText: Telus logo
-        type: ImageBlock
-      - url: /images/contenful-logo.svg
-        altText: Contentful logo
-        type: ImageBlock
-      - url: /images/sanity-logo.svg
-        altText: Sanity logo
-        type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
-        type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
   - title: Divider
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -228,170 +170,67 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-  - title:
-      text: Grow your business 10x faster
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
-    badge:
-      label: Key Benefits
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
   - type: GenericSection
     title:
-      text: Generic section with a video
-      color: text-dark
+      text: Awareness
+      color: text-light
       styles:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
-  - title:
-      text: Social Media Management
-      color: text-dark
-      type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: Educating and Empowering Adolescents
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Cyberbullying is a growing concern affecting millions of young people worldwide. It includes harassment, threats, humiliation, and exclusion through digital platforms like social media, messaging apps, and online games.
+
+
+      **What is Cyberbullying?**
+
+      Cyberbullying is the use of technology to harass, threaten, embarrass, or target another person. Unlike traditional bullying, it can happen 24/7 and reach a victim even when they're alone.
+
+
+      **Signs of Cyberbullying:**
+
+      - Sudden changes in device use habits
+
+      - Emotional distress during or after using the internet
+
+      - Withdrawal from family and friends
+
+      - Decline in academic performance
+
+      - Reluctance to discuss online activities
+
+
+      **How to Respond:**
+
+      - Don't respond to the bully
+
+      - Save evidence of the bullying
+
+      - Block the person responsible
+
+      - Report to a trusted adult or authority
+
+      - Reach out for support
     actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
+      - label: Report Cyberbullying
+        url: '#contact'
         icon: arrowRight
         iconPosition: right
         style: primary
-        type: Link
-    media:
-      url: /images/hero2.svg
-      altText: Fun feature preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-    type: GenericSection
-  - title:
-      text: Business Consulting
-      color: text-dark
-      type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Dope design preview
-      type: ImageBlock
     badge:
-      label: This is a badge
+      label: Education
       color: text-primary
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
         flexDirection: row-reverse
-    type: GenericSection
+    elementId: awareness
   - title: Divider
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -400,216 +239,124 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-  - type: CarouselSection
-    title: null
-    subtitle: What our customers say about us
-    items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-    elementId: null
-    variant: next-prev-nav
-    colors: bg-light-fg-dark
+  - type: GenericSection
+    title:
+      text: Interviews
+      color: text-light
+      styles:
+        self:
+          textAlign: left
+      type: TitleBlock
+    subtitle: ''
+    text: >
+      **Key Insights from Our Interviews:**
+
+
+      **Interview With Psychiatrist:**
+
+
+      Adolescents in a higher socioeconomic group have more access to resources to cope with cyberbullying. For example, support systems, therapy, etc. However, adolescents in a lower socioeconomic group have comparatively less access to these tools, making it more difficult to cope.
+
+
+      Bystanders play a major role in the impacts of cyberbullying, as they can also chose a side, and it is important that they do not promote cyberbullying, and instead chose to help the victim instead of contributing to the issue.
+
+
+      Hurt is felt the same across genders and backgrounds, so it is important to be empathetic online.
+
+
+      **Interview With Cyber Security Expert:**
+
+
+      It is important to ensure that you act the same way in the cyberspace as you would in real life. If you would not do something or say something in real life, you should not be doing that or saying that online either.
+
+
+      A user must also limit the access of their account, and limit the number of people who have access to the content they post, as this can significantly lower the chance of cyberbullying.
+    actions:
+      - label: Share Your Story
+        url: '#contact'
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
+    media:
+      url: /images/interview-cybersecurity.png
+      altText: Interview with Cyber Security Expert - Video call screenshot
+      type: ImageBlock
+    badge:
+      label: Research
+      color: text-primary
+      type: Badge
+    colors: bg-dark-fg-light
     styles:
       self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - title:
-      text: List of features here
+        alignItems: center
+        flexDirection: row
+        padding:
+          - pt-8
+          - pb-4
+          - pl-16
+          - pr-16
+    elementId: interviews
+  - type: GenericSection
+    title:
+      text: ''
+      color: text-light
+      styles:
+        self:
+          textAlign: left
+      type: TitleBlock
+    subtitle: ''
+    text: ''
+    actions: []
+    media:
+      url: /images/interview-psychiatrist.png
+      altText: Interview with Psychiatrist - Video call screenshot
+      type: ImageBlock
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        alignItems: center
+        flexDirection: row
+        justifyContent: flex-start
+        padding:
+          - pt-4
+          - pb-16
+          - pl-36
+          - pr-36
+    elementId: ''
+  - title: Divider
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
+  - type: FeaturedItemsSection
+    title:
+      text: Survey Results
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: What our research reveals about cyberbullying among adolescents
     items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: 'Over 70%'
+        tagline: Prevalence
+        subtitle: Have Been Targets of Cyberbullying
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          Over 70% of adolescents have been targets of cyberbullying. Our survey found that 72.6% of respondents said yes when asked if they have ever been a target of cyberbullying.
         image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          url: /images/survey-cyberbullying-targets.png
+          altText: Pie chart showing 72.6% of adolescents have been targets of cyberbullying
           styles:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -620,19 +367,19 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: 'Over 72%'
+        tagline: Impact
+        subtitle: Affected Emotional Wellbeing
         text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+          Our survey found that 72.1% of adolescents reported their confidence or emotional wellbeing was significantly (30.8%) or extremely (41.3%) affected by negative online behaviour.
         image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
+          url: /images/survey-impact-emotional-wellbeing.png
+          altText: Pie chart showing how negative online behaviour has affected confidence or emotional wellbeing
           styles:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -643,19 +390,19 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: 'Nearly 80%'
+        tagline: Frequency
+        subtitle: Encounter Cyberbullying Regularly
         text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+          Our survey found that nearly 80% of adolescents come across cyberbullying at least monthly: 39.9% daily, 29.8% weekly, and 10.1% monthly. Only 5.3% said they never encounter it.
         image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
+          url: /images/survey-frequency-cyberbullying.png
+          altText: Pie chart showing how often adolescents come across cyberbullying online
           styles:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -666,8 +413,31 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
+      - title: 'Nearly 70%'
+        tagline: Gender
+        subtitle: Believe Females Are More Targeted
+        text: |
+          Our survey found that 68.8% of adolescents believe females are most frequently targeted in cyberbullying, while 31.3% believe males are most targeted.
+        image:
+          url: /images/survey-gender-targeted.png
+          altText: Pie chart showing which gender is most frequently targeted in cyberbullying
+          styles:
+            self:
+              borderRadius: x-large
+          type: ImageBlock
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+        type: FeaturedItem
+    variant: two-col-grid
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -678,17 +448,168 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedItemsSection
-  - title:
-      text: Generic Section With A Form
-      color: text-dark
+    elementId: survey-results
+  - title: Divider
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
+  - type: CarouselSection
+    title:
+      text: Did You Know?
+      color: text-light
+      styles:
+        self:
+          textAlign: center
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Eye-opening facts about cyberbullying
+    items:
+      - title: >-
+          46% of U.S. teens report experiencing at least one type of cyberbullying behavior.
+        backgroundImage:
+          url: /images/fact-bg-1.png
+          altText: Teen looking at phone in hallway
+          type: ImageBlock
+        actions: []
+        styles:
+          self:
+            padding:
+              - pt-16
+              - pb-16
+              - pl-9
+              - pr-9
+            textAlign: center
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          Kids on certain social networks report very high bullying rates: up to 79% on YouTube, 69% on Snapchat, and 64% on TikTok.
+        backgroundImage:
+          url: /images/fact-bg-2.png
+          altText: Person distressed in front of laptop
+          type: ImageBlock
+        actions: []
+        styles:
+          self:
+            padding:
+              - pt-16
+              - pb-16
+              - pl-9
+              - pr-9
+            textAlign: center
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          Cyberbullies and victims often overlap. About 83% of people who have been cyberbullied were also bullied in person.
+        backgroundImage:
+          url: /images/fact-bg-3.png
+          altText: Teen on stairs with phone
+          type: ImageBlock
+        actions: []
+        styles:
+          self:
+            padding:
+              - pt-16
+              - pb-16
+              - pl-9
+              - pr-9
+            textAlign: center
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          One in 3 young people worldwide have been a victim of online bullying.
+        backgroundImage:
+          url: /images/fact-bg-4.png
+          altText: Person crying looking at phone
+          type: ImageBlock
+        actions: []
+        styles:
+          self:
+            padding:
+              - pt-16
+              - pb-16
+              - pl-9
+              - pr-9
+            textAlign: center
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          59% of teenagers say they have experienced at least one form of online harassment.
+        backgroundImage:
+          url: /images/fact-bg-5.png
+          altText: Teen distressed at laptop
+          type: ImageBlock
+        actions: []
+        styles:
+          self:
+            padding:
+              - pt-16
+              - pb-16
+              - pl-9
+              - pr-9
+            textAlign: center
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          Cyberbullying is associated with higher risks of anxiety, depression, and suicidal thoughts among adolescents.
+        backgroundImage:
+          url: /images/fact-bg-6.png
+          altText: Young person with head down at desk
+          type: ImageBlock
+        actions: []
+        styles:
+          self:
+            padding:
+              - pt-16
+              - pb-16
+              - pl-9
+              - pr-9
+            textAlign: center
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+    elementId: did-you-know
+    variant: next-prev-nav
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
+  - title: Divider
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
+  - title:
+      text: Get Involved
+      color: text-light
+      type: TitleBlock
+    subtitle: Join the fight against cyberbullying
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Whether you want to share your experience, volunteer with our team, or simply learn more about our initiatives, we'd love to hear from you. Together, we can create a safer digital world for everyone.
+
+      Your voice matters. Reach out to us today.
     media:
       fields:
         - name: name
@@ -708,7 +629,7 @@ sections:
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Your message
+          placeholder: Your message or experience you'd like to share
           width: full
           type: TextareaFormControl
       elementId: contact-form
@@ -719,14 +640,14 @@ sections:
             - pb-6
             - pl-6
             - pr-6
-          borderColor: border-dark
+          borderColor: border-light
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Send Message
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -736,12 +657,13 @@ sections:
       label: Contact Us
       color: text-primary
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
+    elementId: contact
     type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Team CyberShakti - Fighting Cyberbullying Among Adolescents
+  metaDescription: Team CyberShakti is a student-led initiative dedicated to combatting cyberbullying among adolescents through awareness, research, and community engagement.
+  socialImage: /images/cybershakti-logo.jpeg
   type: Seo
 type: PageLayout
 ---

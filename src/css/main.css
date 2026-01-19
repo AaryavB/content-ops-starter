@@ -174,6 +174,25 @@
         @apply opacity-100;
     }
 
+    /* Cards with background images */
+    .sb-card-with-bg {
+        @apply text-light;
+    }
+    .sb-card-bg-overlay {
+        background: linear-gradient(135deg, rgba(139, 0, 0, 0.75) 0%, rgba(80, 0, 0, 0.8) 100%);
+    }
+    .sb-card-with-bg .h3 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        font-weight: 500;
+        font-style: italic;
+    }
+    @media (min-width: 640px) {
+        .sb-card-with-bg .h3 {
+            font-size: 1.75rem;
+        }
+    }
+
     /* Color palettes */
     .bg-light-fg-dark,
     .sb-card.bg-light-fg-dark {
@@ -212,17 +231,17 @@
     }
     .bg-neutral-fg-dark,
     .sb-card.bg-neutral-fg-dark {
-        @apply text-dark bg-neutral;
+        @apply text-light bg-neutral;
         .sb-input,
         .sb-select,
         .sb-textarea {
-            @apply placeholder-dark/50;
+            @apply placeholder-light/50;
         }
         .sb-component-button-primary {
             @apply bg-primary border-primary text-light;
         }
         .sb-component-button-secondary {
-            @apply border-dark text-dark;
+            @apply border-light text-light;
         }
         .sb-image-strip-wrap {
             &:before,
@@ -232,17 +251,17 @@
         }
         .sb-divider,
         .sb-footer-bottom {
-            @apply border-neutralAlt;
+            @apply border-light/20;
         }
         .sb-carousel-prev,
         .sb-carousel-next {
-            @apply bg-dark text-light;
+            @apply bg-light text-dark;
         }
         .sb-carousel-dot {
-            @apply bg-dark/20;
+            @apply bg-light/20;
         }
         .sb-carousel-dot-active {
-            @apply bg-dark;
+            @apply bg-light;
         }
     }
     .bg-dark-fg-light,
@@ -282,12 +301,12 @@
     }
     /* Only for cards */
     .bg-neutralAlt-fg-dark {
-        @apply text-dark bg-neutralAlt;
+        @apply text-light bg-neutralAlt;
         .sb-component-button-primary {
             @apply bg-primary border-primary text-light;
         }
         .sb-component-button-secondary {
-            @apply border-dark text-dark;
+            @apply border-light text-light;
         }
     }
 }
