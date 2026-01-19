@@ -72,7 +72,7 @@ sections:
         title: '1 in 3'
         subtitle: Students Affected
         text: >-
-          Studies show that approximately 1 in 3 adolescents have experienced cyberbullying. We are working to change this statistic.
+          Studies show that approximately 1 in 3 adolescents have experienced cyberbullying.
         actions: []
         elementId: null
         colors: bg-neutral-fg-dark
@@ -98,7 +98,7 @@ sections:
       - title: '24/7'
         subtitle: Online Presence
         text: >-
-          Cyberbullying can happen at any time. Our resources and support are designed to help young people navigate online challenges around the clock.
+          Cyberbullying can happen at any time. Our awareness programs are designed to help young people navigate online challenges.
         image:
           url: /images/icon2.svg
           altText: Support icon
